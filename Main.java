@@ -6,12 +6,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-	    String metin = "Ahmet   Ensar   YIRTICI   H5220100";
-	        
-        String temizMetin = StringUtils.deleteWhitespace(metin);
-        
-        System.out.println("Önce: '" + metin + "'");
-        System.out.println("Sonra: '" + temizMetin + "'");
+	    String metin = "Ahmet   Ensar   YIRTICI   H5220100";	     
+	    String temizMetin = StringUtils.deleteWhitespace(metin);       
+	    System.out.println("Önce: '" + metin + "'");
+	    System.out.println("Sonra: '" + temizMetin + "'");
 
 	}		
 

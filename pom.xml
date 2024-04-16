@@ -5,6 +5,11 @@
   <artifactId>mavenProje1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+   <properties>
+	  <maven.compailer.source>21</maven.compailer.source>
+	  <maven.compailer.target>21</maven.compailer.target>
+  </properties>
+  
   <dependencies>
 	
 	<dependency>
